@@ -4,123 +4,212 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Manulife File Penting - Directory Per 02 Juni 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
     /* Global Styles */
     :root {
-        --primary-color: #1a5632; /* Manulife Green */
-        --primary-hover: #2a7a4a;
-        --secondary-color: #0066cc; /* Link Blue */
-        --bg-color: #f4f7f6;
+        --primary-color: #00a758;
+        --primary-dark: #00864a;
+        --primary-gradient: linear-gradient(135deg, #00864a 0%, #00a758 50%, #00c464 100%);
+        --secondary-color: #2563eb;
+        --secondary-hover: #1d4ed8;
+        --bg-color: #f8fafb;
         --card-bg: #ffffff;
-        --text-color: #333;
-        --text-muted: #666;
-        --border-color: #e1e8ed;
+        --text-color: #1a2332;
+        --text-secondary: #4a5568;
+        --text-muted: #718096;
+        --border-color: #e2e8f0;
+        --border-light: #f1f5f9;
+        --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+        --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.06);
+        --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.04);
+        --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.08), 0 8px 16px rgba(0, 0, 0, 0.04);
+        --radius-sm: 8px;
+        --radius-md: 12px;
+        --radius-lg: 16px;
+        --radius-xl: 20px;
+    }
+
+    * {
+        box-sizing: border-box;
     }
 
     body { 
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
         background-color: var(--bg-color);
         margin: 0; 
-        padding: 20px; 
+        padding: 0; 
         color: var(--text-color); 
-        line-height: 1.6;
+        line-height: 1.7;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
 
     .container {
-        max-width: 1000px; 
+        max-width: 1100px; 
         margin: 0 auto; 
-        padding: 20px;
+        padding: 0 24px 60px;
     }
 
-    /* Header & Subtitle */
+    /* Header */
     header {
+        background: var(--primary-gradient);
+        padding: 48px 24px;
+        margin-bottom: 48px;
         text-align: center;
-        margin-bottom: 40px;
-        padding-bottom: 20px;
-        border-bottom: 3px solid var(--primary-color);
+        position: relative;
+        overflow: hidden;
+    }
+
+    header::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%);
+        pointer-events: none;
+    }
+
+    header::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, rgba(255,255,255,0.3), rgba(255,255,255,0.8), rgba(255,255,255,0.3));
     }
 
     h1 { 
-        color: var(--primary-color); 
+        color: #ffffff; 
         font-size: 2.2em; 
-        margin: 0 0 10px 0;
+        margin: 0 0 12px 0;
         font-weight: 700;
+        letter-spacing: -0.02em;
+        position: relative;
     }
 
     .subtitle { 
-        font-size: 1.1em;
-        color: var(--text-muted); 
-        margin: 0;
-        max-width: 700px;
+        font-size: 1em;
+        color: rgba(255, 255, 255, 0.9); 
         margin: 0 auto;
+        max-width: 600px;
+        font-weight: 400;
+        line-height: 1.6;
+        position: relative;
     }
 
     /* Section Headings */
     h2 { 
-        color: var(--primary-color); 
-        font-size: 1.6em; 
-        margin-top: 40px; 
-        margin-bottom: 20px;
+        color: var(--text-color); 
+        font-size: 1.35em; 
+        margin-top: 48px; 
+        margin-bottom: 24px;
+        font-weight: 700;
         display: flex;
         align-items: center;
+        gap: 16px;
+        letter-spacing: -0.01em;
+    }
+
+    h2::before {
+        content: '';
+        width: 4px;
+        height: 24px;
+        background: var(--primary-gradient);
+        border-radius: 2px;
+        flex-shrink: 0;
     }
     
     h2::after {
         content: '';
         flex: 1;
-        height: 2px;
-        background-color: var(--border-color);
-        margin-left: 20px;
+        height: 1px;
+        background: var(--border-color);
     }
 
     /* Grid Layout for Products */
     .product-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 24px;
     }
 
     /* Product Card Styles */
     .product-card {
         background: var(--card-bg);
         border: 1px solid var(--border-color);
-        border-radius: 12px;
-        padding: 25px;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        border-radius: var(--radius-lg);
+        padding: 28px;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         display: flex;
         flex-direction: column;
+        box-shadow: var(--shadow-sm);
+        position: relative;
     }
 
     .product-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-xl);
+        border-color: transparent;
+    }
+
+    .product-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--primary-gradient);
+        border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .product-card:hover::before {
+        opacity: 1;
     }
 
     .card-header {
         display: flex;
-        align-items: start;
-        margin-bottom: 15px;
+        align-items: center;
+        margin-bottom: 12px;
+        gap: 14px;
     }
 
     .product-icon {
-        font-size: 2em;
-        margin-right: 15px;
-        margin-top: -5px;
+        font-size: 1.8em;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--border-light);
+        border-radius: var(--radius-sm);
+        flex-shrink: 0;
     }
 
     h3 { 
         color: var(--text-color); 
-        font-size: 1.25em; 
+        font-size: 1.15em; 
         margin: 0;
-        font-weight: 600;
+        font-weight: 700;
         line-height: 1.3;
+        letter-spacing: -0.01em;
     }
 
     .product-desc {
-        font-size: 0.9em;
+        font-size: 0.85em;
         color: var(--text-muted);
         margin-bottom: 20px;
-        font-style: italic;
+        font-style: normal;
+        font-weight: 400;
+        padding-left: 2px;
     }
 
     /* Link List Styles */
@@ -128,36 +217,45 @@
         list-style-type: none; 
         padding: 0; 
         margin: 0;
-        font-size: 0.95em;
-        flex-grow: 1; /* Pushes folder button to bottom if needed */
+        font-size: 0.9em;
+        flex-grow: 1;
     }
 
     .link-list li { 
-        margin: 10px 0; 
-        display: flex;
-        align-items: center;
+        margin: 0;
+        border-radius: var(--radius-sm);
+        transition: background-color 0.15s ease;
+    }
+
+    .link-list li:hover {
+        background-color: var(--border-light);
     }
 
     .link-list a { 
-        color: var(--secondary-color); 
+        color: var(--text-secondary); 
         text-decoration: none; 
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 10px;
+        padding: 8px 10px;
+        border-radius: var(--radius-sm);
+        transition: color 0.2s ease;
+        font-weight: 450;
     }
 
     .link-list a:hover { 
-        text-decoration: underline; 
-        color: #004499; 
+        color: var(--secondary-color);
+        text-decoration: none;
     }
 
     .file-icon {
-        opacity: 0.7;
+        font-size: 1em;
+        flex-shrink: 0;
     }
 
     /* Buttons */
     .folder-btn-container {
-        margin-top: auto; /* Pushes to bottom of card */
+        margin-top: auto;
         padding-top: 20px;
     }
 
@@ -165,77 +263,158 @@
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        background-color: var(--primary-color); 
+        background: var(--primary-gradient);
         color: white !important; 
-        padding: 10px 20px; 
-        border-radius: 8px; 
-        font-weight: bold; 
+        padding: 12px 20px; 
+        border-radius: var(--radius-sm); 
+        font-weight: 600; 
+        font-size: 0.88em;
         text-decoration: none !important;
         width: 100%;
         justify-content: center;
-        transition: background-color 0.2s ease;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
         box-sizing: border-box;
+        box-shadow: 0 2px 8px rgba(0, 167, 88, 0.2);
+        letter-spacing: 0.01em;
     }
 
     .folder-btn:hover { 
-        background-color: var(--primary-hover); 
+        transform: translateY(-1px);
+        box-shadow: 0 4px 14px rgba(0, 167, 88, 0.35);
     }
 
     /* Generic List Section (for non-card lists) */
     .generic-list {
         background: var(--card-bg);
         border: 1px solid var(--border-color);
-        border-radius: 12px;
-        padding: 25px;
-        margin-bottom: 20px;
+        border-radius: var(--radius-lg);
+        padding: 32px;
+        margin-bottom: 24px;
+        box-shadow: var(--shadow-sm);
+    }
+
+    .generic-list h3 {
+        font-size: 1.05em;
+        color: var(--text-color);
+        margin-top: 0;
+        margin-bottom: 16px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--border-light);
     }
     
     .generic-list ul {
-        list-style-type: disc;
-        padding-left: 20px;
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
     }
     
     .generic-list li {
-        margin: 10px 0;
+        margin: 0;
+        border-radius: var(--radius-sm);
+        transition: background-color 0.15s ease;
+    }
+
+    .generic-list li:hover {
+        background-color: var(--border-light);
+    }
+
+    .generic-list li a {
+        color: var(--text-secondary);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 12px;
+        border-radius: var(--radius-sm);
+        transition: color 0.2s ease;
+        font-weight: 450;
+        font-size: 0.92em;
+    }
+
+    .generic-list li a:hover {
+        color: var(--secondary-color);
+    }
+
+    .generic-list .folder-btn {
+        width: auto;
+        padding: 8px 18px;
+        font-size: 0.82em;
+        margin-top: 12px;
+        display: inline-flex;
     }
 
     /* Footer / Important Section */
     .important-note {
-        background-color: #fff3cd;
-        border: 1px solid #ffeeba;
-        color: #856404;
-        padding: 20px;
-        border-radius: 12px;
-        margin-top: 50px;
+        background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+        border: 1px solid #fde68a;
+        color: #92400e;
+        padding: 28px 32px;
+        border-radius: var(--radius-lg);
+        margin-top: 56px;
         text-align: center;
+        box-shadow: var(--shadow-sm);
     }
 
     .important-note h4 {
         margin-top: 0;
-        color: #dc3545;
-        font-size: 1.2em;
+        margin-bottom: 12px;
+        color: #dc2626;
+        font-size: 1.1em;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+    }
+
+    .important-note p {
+        margin: 8px 0;
+        font-size: 0.92em;
+        line-height: 1.6;
     }
 
     .signature {
-        font-weight: bold;
+        font-weight: 700;
         margin-top: 20px;
-        color: var(--primary-color);
+        color: var(--primary-dark);
+        font-size: 0.95em;
     }
 
     /* Responsive adjustments */
-    @media (max-width: 600px) {
-        h1 { font-size: 1.8em; }
-        .product-grid { grid-template-columns: 1fr; }
+    @media (max-width: 768px) {
+        header {
+            padding: 36px 20px;
+        }
+        h1 { font-size: 1.7em; }
+        .container { padding: 0 16px 40px; }
+        .product-grid { 
+            grid-template-columns: 1fr; 
+            gap: 16px;
+        }
+        .product-card {
+            padding: 22px;
+        }
+        .generic-list {
+            padding: 22px;
+        }
+        h2 {
+            font-size: 1.15em;
+            margin-top: 36px;
+        }
+    }
+
+    @media (max-width: 400px) {
+        h1 { font-size: 1.4em; }
+        .subtitle { font-size: 0.9em; }
+        header { padding: 28px 16px; }
     }
 </style>
 </head>
 <body>
 
+<header>
+    <h1>Manulife File Penting</h1>
+    <p class="subtitle">Directory Per 02 Juni 2026 &mdash; Shortcut Link Untuk Perpustakaan Digital BMI Manulife. Silahkan klik info yang Anda inginkan.</p>
+</header>
+
 <div class="container">
-    <header>
-        <h1>Manulife File Penting</h1>
-        <p class="subtitle">Directory Per 02 Juni 2026 — Shortcut Link Untuk Perpustakaan Digital BMI Manulife. Silahkan klik info yang Anda inginkan.</p>
-    </header>
 
     <h2>I. Simple Produk Knowledge</h2>
     
@@ -360,7 +539,7 @@
             </ul>
             <div class="folder-btn-container">
                 <a class="folder-btn" href="https://drive.google.com/drive/folders/1mAq5FHfCUAybxBGAQ211XwFRtMmXbLRP?usp=drive_link" target="_blank">📁 Folder MDWA</a>
-                <a class="folder-btn" style="margin-top:10px; background-color:#777" href="https://drive.google.com/file/d/1KOHgLCuXltKw78x9TTu7V1eQ2v7Rp78c/view?usp=drive_link" target="_blank">📁 Folder MiAction</a>
+                <a class="folder-btn" style="margin-top:10px; background: linear-gradient(135deg, #475569, #64748b);" href="https://drive.google.com/file/d/1KOHgLCuXltKw78x9TTu7V1eQ2v7Rp78c/view?usp=drive_link" target="_blank">📁 Folder MiAction</a>
             </div>
         </div>
 
@@ -469,7 +648,7 @@
             </ul>
             <div class="folder-btn-container">
                 <a class="folder-btn" href="https://drive.google.com/drive/folders/100Jj0csyip7T2kMfsSfRSTjozA50l5wH?usp=drive_link" target="_blank">📁 Folder Mission</a>
-                <a class="folder-btn" style="margin-top:10px; background-color:#777" href="https://drive.google.com/file/d/1ueX7u_Hy1QJil7bRKN9Vglp_Z_BGUSdN/view?usp=drive_link" target="_blank">📁 Folder MDSA</a>
+                <a class="folder-btn" style="margin-top:10px; background: linear-gradient(135deg, #475569, #64748b);" href="https://drive.google.com/file/d/1ueX7u_Hy1QJil7bRKN9Vglp_Z_BGUSdN/view?usp=drive_link" target="_blank">📁 Folder MDSA</a>
             </div>
         </div>
     </div>
@@ -483,7 +662,7 @@
             <li><a href="https://youtu.be/YcIinwaXWa0?si=uUc_ONgc8hsndczE" target="_blank"><span class="file-icon">📄</span> Materi Next Pro</a></li>
             <li><a href="https://drive.google.com/drive/folders/1vKgC6U8fmVDC8UtkEaGpTcLq4yWsSXMP?usp=drive_link" target="_blank"><span class="file-icon">📋</span> Skema Special Financing</a></li>
             <li><a href="https://drive.google.com/drive/folders/1dIKfq1zjXyTNWgcH49EjmcmzZHY0inVt?usp=drive_link" target="_blank"><span class="file-icon">📊</span> Kalkulator & Perhitungan</a></li>
-            <li><a class="folder-btn" style="width:auto; padding: 5px 15px; font-size:0.8em; margin-top:10px;" href="https://drive.google.com/drive/folders/1J7p5f6UzA3ZFfSU1jTxSCJC29FYCPjP6?usp=sharing" target="_blank">📁 Buka Folder</a></li>
+            <li><a class="folder-btn" href="https://drive.google.com/drive/folders/1J7p5f6UzA3ZFfSU1jTxSCJC29FYCPjP6?usp=sharing" target="_blank">📁 Buka Folder</a></li>
         </ul>
 
         <h3 style="margin-top:30px;">2. Keagenan & AAJI</h3>
@@ -493,7 +672,7 @@
             <li><a href="https://drive.google.com/file/d/1N0L1KZjK3ivRSXATxoH9coVFcmgo11YF/view?usp=drive_link" target="_blank"><span class="file-icon">📋</span> Kriteria Promosi & CM</a></li>
             <li><a href="https://youtube.com/playlist?list=PLmW8OriV3NFL69t59wJkSqcplSw2rtjQl" target="_blank"><span class="file-icon">📝</span> Kisi-kisi AAJI (PL)</a></li>
             <li><a href="https://www.youtube.com/playlist?list=PLmW8OriV3NFJ6sKrZaICET1SgaHAWNvmD" target="_blank"><span class="file-icon">📱</span> Panduan Mobile Exam</a></li>
-            <li><a class="folder-btn" style="width:auto; padding: 5px 15px; font-size:0.8em; margin-top:10px;" href="https://drive.google.com/drive/folders/1PWI2oTjSmlQgVeqetmKrZCzdZm0cDBK-" target="_blank">📁 Buka Folder</a></li>
+            <li><a class="folder-btn" href="https://drive.google.com/drive/folders/1PWI2oTjSmlQgVeqetmKrZCzdZm0cDBK-" target="_blank">📁 Buka Folder</a></li>
         </ul>
 
         <h3 style="margin-top:30px;">3. Kompensasi</h3>
@@ -501,14 +680,14 @@
             <li><a href="https://drive.google.com/file/d/1VOKk9RgWC2KbBqmu8TadjCcnHjtU9bz5/view?usp=drive_link" target="_blank"><span class="file-icon">💰</span> Komisi Berbagai Produk</a></li>
             <li><a href="https://drive.google.com/drive/folders/1pHITCjX8ety7BVWAuJKdAHZmT7Jthu7P?usp=drive_link" target="_blank"><span class="file-icon">📋</span> OR Lifetime</a></li>
             <li><a href="https://drive.google.com/file/d/1ZI9kmM2qL27MDV58ZqjcMxasSsNcfOeY/view?usp=drive_link" target="_blank"><span class="file-icon">❓</span> Q&A Kompensasi</a></li>
-            <li><a class="folder-btn" style="width:auto; padding: 5px 15px; font-size:0.8em; margin-top:10px;" href="https://drive.google.com/file/d/1pO0gc_X_dIZmVmWbC8HRTcfqf-FKCn2d/view?usp=drive_link" target="_blank">📁 Buka Folder</a></li>
+            <li><a class="folder-btn" href="https://drive.google.com/file/d/1pO0gc_X_dIZmVmWbC8HRTcfqf-FKCn2d/view?usp=drive_link" target="_blank">📁 Buka Folder</a></li>
         </ul>
     </div>
 
     <h2>III. Starter Kit & New Agent Tools</h2>
     
     <div class="generic-list">
-        <p style="font-style:italic; color:#666; margin-top:0;">Selling & Rekrut Tools, Simple Knowledge, dll</p>
+        <p style="font-style:italic; color: var(--text-muted); margin-top:0;">Selling & Rekrut Tools, Simple Knowledge, dll</p>
         <h3>1. Selling Tools</h3>
         <ul>
             <li><a href="https://drive.google.com/file/d/1qjK9bZRocJFet-RWEFY0flXj_3sTjUZX/view?usp=drive_link" target="_blank"><span class="file-icon">📋</span> Persiapan Sebelum Presentasi</a></li>
