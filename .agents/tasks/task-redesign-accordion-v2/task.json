@@ -1,0 +1,7 @@
+{
+  "task_id": "task-redesign-accordion-v2",
+  "task_description": "Redesign index.html as a masterpiece-quality page with accordion cards, quick navigation buttons at top, and footer with @petrusjakub Instagram link. Content sourced from the converted HTML file.",
+  "status": "in_progress",
+  "feature_order": ["FEAT-001", "FEAT-002", "FEAT-003"],
+  "blocked_reason": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "FEAT-001",
+  "type": "feat",
+  "description": "Complete redesign of index.html with masterpiece quality UI, navigation buttons at top linking to each card section, accordion effect on each card for clean expandable content, and footer with @petrusjakub credit linking to Instagram. All content/links must come from the source converted HTML file.",
+  "status": "in_progress",
+  "steps": [
+    "Completely rewrite /projects/sandbox/List-penting/index.html with a masterpiece-quality redesigned page",
+    "Extract ALL content and links from the source file 'Manulife File Penting - Directory Per 02 Juni 2026 (2)-converted.html' - this includes Section I (14 products), Section II (Financing, Keagenan & AAJI, Kompensasi, Manu Pro/MABC/Billionaire), and Section III (Starter Kit with Selling Tools, Recruiting Tools, Submit Tools)",
+    "At the very top of the page, create a navigation bar with buttons/pills that link to each card section below (use anchor links with smooth scrolling)",
+    "Each product/section card must use an accordion effect - clickable header that expands/collapses the content beneath it, making the page look clean and organized",
+    "Design must be masterpiece quality: modern, clean, professional with Manulife green brand colors, smooth animations, glass morphism or gradient effects, responsive design",
+    "Use Google Fonts (Inter or similar), CSS variables for theming, smooth transitions for accordion open/close",
+    "At the very bottom of the page, add footer text: 'edited by @petrusjakub' where 'petrusjakub' links to https://instagram.com/petrusjakub, and include 'copyright 2026'",
+    "All links must open in new tabs (target=_blank)",
+    "Ensure the page is fully responsive (mobile-friendly)",
+    "Use only inline CSS and JS (single HTML file, no external dependencies except CDN fonts)"
+  ],
+  "acceptance_criteria": [
+    "Page has navigation buttons at top that scroll to respective card sections",
+    "Each card uses accordion expand/collapse interaction",
+    "All 14 products from Section I are present with correct links from the converted HTML source",
+    "Section II (Financing, Keagenan & AAJI, Kompensasi, Manu Pro/MABC/Billionaire) is present with correct links",
+    "Section III (Starter Kit - Selling Tools, Recruiting Tools, Submit Tools) is present with correct links",
+    "Footer shows 'edited by @petrusjakub' with petrusjakub linking to https://instagram.com/petrusjakub and copyright 2026",
+    "Design is modern, clean, professional (masterpiece quality)",
+    "Page is responsive and works on mobile",
+    "All external links open in new tab"
+  ],
+  "verification": [
+    "Open index.html and confirm visual quality and layout",
+    "Verify accordion expand/collapse functionality works",
+    "Verify navigation buttons at top scroll to correct sections",
+    "Verify footer contains @petrusjakub Instagram link and copyright 2026",
+    "Spot-check that links match the source converted HTML file"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

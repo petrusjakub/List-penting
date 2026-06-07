@@ -1,0 +1,7 @@
+{
+  "task_id": "task-redesign-index-v2",
+  "task_description": "Redesign index.html with content from source converted HTML, using accordion cards, top navigation buttons, and @petrusjakub footer with Instagram link and copyright 2026",
+  "status": "in_progress",
+  "feature_order": ["FEAT-001"],
+  "blocked_reason": null
+}

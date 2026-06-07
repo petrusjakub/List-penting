@@ -1,0 +1,34 @@
+{
+  "id": "FEAT-002",
+  "type": "feat",
+  "description": "Add remaining Section I products (8-14) content to index.html, plus Section II and III full content with all links from source.",
+  "status": "pending",
+  "steps": [
+    "Open index.html and add products 8-14 to Section I after product 7 (MSP). Each product card should follow the same accordion card pattern established in FEAT-001.",
+    "Product 8: MIFIP - Pensiun/Investasi/Tradisional. Folder: https://drive.google.com/drive/folders/1pbyz35eCbgKMW9eB6kXgb2jihQqiD5Ku. Links: A. Brosur https://drive.google.com/file/d/1M69DJu-dw4hmMKg1TNkdt-gJGiPZOdmU/view?usp=drivesdk, B. Tabel Premi (Belum Ada - no link, show as text), C. Contoh Ilustrasi https://drive.google.com/file/d/1N9AMdKSq6D4aiUX_bXWN3gpwjw4OjgZa/view?usp=drive_link, D. Materi Training https://drive.google.com/file/d/1CNnHunTR9kF_BI5zjvtUvTfh3di6Siyb/view?usp=drive_link, E. Youtube Penjelasan https://www.youtube.com/playlist?list=PLmW8OriV3NFKOhgXi27kzpCAvN9MS03CC, F. Hal Detail Lainnya https://drive.google.com/drive/folders/1JUtODgBE9RTYny7Fo-eyAMg8-tl182vC?usp=drive_link, G. Video Youtube MIFIP https://www.youtube.com/playlist?list=PLmW8OriV3NFKOhgXi27kzpCAvN9MS03CC",
+    "Product 9: MiPrecious - Warisan Antar Generasi/Pengelolaan Dana/Tradisional. Folder: https://drive.google.com/drive/folders/1gqDVwus1qMIYmZIfmtZc-O2SUCBNUbFj?usp=drive_link. Links: A. Brosur https://drive.google.com/file/d/1XIqBGOdag2Ll83VplGFvCUCEL9whGy_u/view?usp=drive_link, B. Tabel Premi (Belum Ada - no link), C. Contoh Ilustrasi https://drive.google.com/file/d/1Nfyb_G2z4yhrmxpJnhIiaW5erKX1Jist/view?usp=drive_link, D. Materi Training https://drive.google.com/file/d/1CN6_H6RuYv6uPRr1Mx9EELQ92xfwPNyZ/view?usp=drive_link, E. Youtube Penjelasan https://youtube.com/playlist?list=PLmW8OriV3NFL69t59wJkSqcplSw2rtjQl&si=TI3pELnIaDaPJK8w, F. Hal Detail Lainnya https://drive.google.com/drive/folders/1Uxh6by8bkjcsZDihjDGGlNwH-lrG8CgN?usp=drive_link, G. Video Youtube MiPrecious https://www.youtube.com/playlist?list=PLmW8OriV3NFJMpHny-U01GX0jHlUI5zv_",
+    "Product 10: MPDS - Tabungan/Tradisional Balik Modal. Folder: https://drive.google.com/drive/folders/1jZ_MmB9UtmLuxILmIQNvmi9LxFpYqv8L?usp=drive_link. Links: A. Brosur https://drive.google.com/file/d/19fIjiTo3Ys8vJ9TzsNkf_-IZ7zjOXe0q/view?usp=drive_link, B. Tabel Premi PDF https://drive.google.com/file/d/1kG3tKP9GuoWC6TqDBMClZLPaFNMGNokE/view?usp=drive_link, C. Contoh Ilustrasi https://drive.google.com/drive/folders/1bSoO07j3xRwd8r4H3dkVolpSK5ClDgR1?usp=drive_link, D. Materi Training https://drive.google.com/file/d/1wT1iwe7_StTv_yBfa22hDxF39Cf62zcX/view?usp=drive_link, E. Youtube Penjelasan https://drive.google.com/file/d/1AIeg0wpJlrzGhmpfUbctDqOscme_74Ce/view?usp=drive_link",
+    "Product 11: PAP - Jiwa Murni/Warisan Termurah. Folder: https://drive.google.com/drive/folders/1068x10QaNOj-k9pX71n5tifoKGXEzjjH?usp=drive_link. Links: A. Brosur https://drive.google.com/file/d/10w9u1x8cb4N4zgPwFqYkvnGhcfQr_T1j/view?usp=drive_link, B. Tabel Premi https://drive.google.com/file/d/11iNUX_hWo7Mrzwj-0VrTJeu-83LRHaMr/view?usp=drive_link, C. Materi Training https://drive.google.com/file/d/1NRjnd1Y292EBMb3Sq-61db658alT4XSt/view?usp=drive_link, D. Youtube Penjelasan https://drive.google.com/file/d/13Ycgjy6dnw1CP_kFBQdCA96RTICJnI8y/view?usp=drive_link",
+    "Product 12: MiSSION Syariah - Unitlink Syariah. Folder: https://drive.google.com/drive/folders/100Jj0csyip7T2kMfsSfRSTjozA50l5wH?usp=drive_link. Links: A. Brosur Mission https://drive.google.com/file/d/1d2u8nZ6oz3vz3VSXf3FuybzKex2cRieU/view?usp=drive_link, B. Tabel Premi https://drive.google.com/file/d/1nDY4B_O18jQKeGsqEiJF4QdJenhkyKwA/view?usp=drive_link, C. Materi Training https://drive.google.com/file/d/1bWGcRGfFOPILKH-rFwMiWIpxDhATWVIj/view?usp=drive_link, D. Youtube Penjelasan https://youtu.be/QV2Cr0ChX9c?si=v69CLcR45jg7tTtw, E. Hal Detail Lainnya https://drive.google.com/drive/folders/1HcaE56eK2xBEuImQnwlhxA2ToHfeY8yq?usp=drive_link",
+    "Product 13: MDSA - Unitlink Non-Syariah. Folder: https://drive.google.com/file/d/1KOHgLCuXltKw78x9TTu7V1eQ2v7Rp78c/view?usp=drive_link. Links: A. Brosur MDSA https://drive.google.com/file/d/16Q_XQzx9pdEcLsx6CC04llrMEswhA2-y/view?usp=drive_link, B. Tabel Premi https://drive.google.com/file/d/1ytOvKPMqKPOYbe2yTwi-zkZUfrS9K7-v/view?usp=drive_link, C. Materi Training https://drive.google.com/file/d/1Vn1krwWBraTJEl0anggMIXjeDp0tsll3/view?usp=drive_link",
+    "Product 14: MiAction - Investasi/Pensiun. Folder: https://drive.google.com/drive/folders/1mAq5FHfCUAybxBGAQ211XwFRtMmXbLRP?usp=drive_link. Links: A. Brosur https://drive.google.com/file/d/1MIulRaEiQcYBTTdMcbJU99U9zHWkQchZ/view?usp=drive_link, B. Contoh Ilustrasi https://drive.google.com/drive/folders/1GwpuBXRHByiksrxxK1lIg_cixrDHHycW?usp=drive_link, C. Materi Training https://drive.google.com/file/d/1G5mN0Xnv4eydhfiSCuBit-rwS3O273L9/view?usp=drive_link",
+    "Ensure Section II (Financing, Keagenan & AAJI, Kompensasi) has all its sub-sections with correct links as accordion cards",
+    "Ensure Section III (Starter Kit & New Agent Tools) has all sub-sections: Selling Tools, Recruiting Tools, Submit Tools with correct links as accordion cards",
+    "Verify the footer with petrusjakub Instagram link and copyright 2026 is present"
+  ],
+  "acceptance_criteria": [
+    "Products 8-14 are present with correct links from the source HTML",
+    "Section II has complete Financing, Keagenan/AAJI, and Kompensasi content",
+    "Section III has complete Selling Tools, Recruiting Tools, and Submit Tools content",
+    "All accordion cards expand/collapse correctly",
+    "Footer shows edited by @petrusjakub linking to Instagram"
+  ],
+  "verification": [
+    "Run grep to verify MIFIP, MiPrecious, MPDS, PAP content is present",
+    "Run grep to verify Section II Financing links are present",
+    "Run grep to verify Section III Selling Tools links are present",
+    "Run grep to verify footer Instagram link"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

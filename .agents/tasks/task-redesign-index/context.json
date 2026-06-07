@@ -1,0 +1,19 @@
+{
+  "project_type": "Static HTML page - Manulife insurance product directory",
+  "language": "HTML/CSS/JavaScript",
+  "build_system": "None - single static HTML file",
+  "test_framework": "None - manual visual verification",
+  "build_command": "N/A",
+  "test_command": "N/A",
+  "verification_instructions": "Open index.html in a browser and verify: 1) Navigation buttons at top link to each card section, 2) Each card has accordion functionality, 3) Footer shows 'edited by @petrusjakub' with link to Instagram, 4) All links from source converted HTML are present and correct",
+  "snapshot_or_generated_files": null,
+  "setup_instructions": "No setup needed - single HTML file",
+  "environment_constraints": "No build system needed. Pure HTML/CSS/JS. All content must come from the converted HTML source file.",
+  "contribution_requirements": "Push directly to main branch",
+  "key_patterns": "Single-page static HTML with embedded CSS and JS. No external dependencies except Google Fonts.",
+  "relevant_files": [
+    "index.html",
+    "Manulife File Penting - Directory Per 02 Juni 2026 (2)-converted.html"
+  ],
+  "directory_structure": "Root contains index.html (to rewrite), source converted HTML, and source PDF"
+}

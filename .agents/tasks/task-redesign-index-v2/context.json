@@ -1,0 +1,19 @@
+{
+  "project_type": "Static HTML website - single page directory of links",
+  "language": "HTML/CSS/JavaScript",
+  "build_system": "none - static HTML",
+  "test_framework": "none",
+  "build_command": "N/A",
+  "test_command": "N/A",
+  "verification_instructions": "Open index.html in browser, verify accordion functionality, verify navigation buttons scroll to correct sections, verify footer link to Instagram",
+  "snapshot_or_generated_files": null,
+  "setup_instructions": "No setup needed - plain HTML file",
+  "environment_constraints": "No build tools required. Git push to main needed at end.",
+  "contribution_requirements": "Push directly to main branch",
+  "key_patterns": "Single HTML file with inline CSS and JS. Source content from 'Manulife File Penting - Directory Per 02 Juni 2026 (2)-converted.html' contains all product data with links organized in Roman numeral sections (I. Simple Produk Knowledge, II. Financing/Keagenan/AAJI/Kompensasi, III. Starter Kit).",
+  "relevant_files": [
+    "index.html",
+    "Manulife File Penting - Directory Per 02 Juni 2026 (2)-converted.html"
+  ],
+  "directory_structure": "Root contains index.html (target), source converted HTML file, and a PDF version"
+}

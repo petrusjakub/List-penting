@@ -1,0 +1,35 @@
+{
+  "id": "FEAT-001",
+  "type": "feat",
+  "description": "Complete redesign of index.html as a masterpiece-quality page with accordion cards, top navigation buttons, and @petrusjakub footer. Content sourced from the converted HTML file with correct links.",
+  "status": "in_progress",
+  "steps": [
+    "Read the source file 'Manulife File Penting - Directory Per 02 Juni 2026 (2)-converted.html' to extract ALL product sections, sub-items, and their correct Google Drive/YouTube links",
+    "Rewrite index.html from scratch with a modern, masterpiece-quality responsive design using Inter font, Manulife green branding (#00a758), smooth gradients, glass-morphism effects, and professional styling",
+    "At the TOP of the page, add a sticky/fixed navigation bar with buttons/pills for each product card section (MIUHC, MDLA, MPS Flexi, MPPS, MCCP, MDWA, MSP, MIFIP, MiPrecious, MPDS, PAP, MiSSION/MDSA, Financing, Keagenan, Kompensasi, Starter Kit). Clicking each button smooth-scrolls to the corresponding card",
+    "Each product/section is a CARD with an ACCORDION effect: the card header (product name + brief description + icon) is always visible, and clicking it expands/collapses the content (list of links). Use pure CSS+JS accordion with smooth animation. Cards should be collapsed by default for a clean look",
+    "Ensure ALL links from the source converted HTML are correctly transferred with proper hrefs - use the ORIGINAL source file links, NOT the current index.html links which may be incorrect",
+    "Include Section I (Simple Produk Knowledge - 12 products), Section II (Financing, Keagenan & AAJI, Kompensasi), and Section III (Starter Kit & New Agent Tools) with all sub-links from the source",
+    "Add important notice section (PENTING - UNTUK KALANGAN SENDIRI SAJA) before the footer",
+    "At the BOTTOM of the page add footer: 'edited by @petrusjakub' where '@petrusjakub' is a clickable link to https://instagram.com/petrusjakub, plus 'Copyright 2026' text",
+    "Ensure fully responsive design (mobile-friendly), accessible, and performant with no external JS libraries"
+  ],
+  "acceptance_criteria": [
+    "index.html renders a beautiful, modern redesigned page",
+    "Top navigation bar has buttons for each card section that smooth-scroll when clicked",
+    "Each product/section uses accordion effect (click to expand/collapse)",
+    "All links from the source HTML are correctly preserved with original URLs",
+    "Footer contains 'edited by @petrusjakub' linking to https://instagram.com/petrusjakub and 'Copyright 2026'",
+    "Page is fully responsive and works on mobile",
+    "No external JavaScript libraries used (pure vanilla JS)"
+  ],
+  "verification": [
+    "Open index.html and verify the page renders without errors",
+    "Verify accordion open/close works on each card",
+    "Verify top navigation buttons exist and link to correct sections via IDs",
+    "Verify footer contains @petrusjakub link to Instagram and copyright 2026",
+    "Grep index.html for key URLs from source to confirm they are transferred correctly"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

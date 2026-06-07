@@ -1,0 +1,29 @@
+{
+  "id": "FEAT-001",
+  "type": "feat",
+  "description": "Complete redesign of index.html as a masterpiece-quality page with accordion cards, navigation buttons at top, and footer credit. Content and links must be sourced from the converted HTML file.",
+  "status": "in_progress",
+  "steps": [
+    "Read the source file 'Manulife File Penting - Directory Per 02 Juni 2026 (2)-converted.html' to extract ALL content, links, and structure. The file has 3 main sections: I. Simple Produk Knowledge (14 products: MIUHC, MDLA, MPS Flexi, MPPS, MCCP, MDWA, MSP, MIFIP, MiPrecious, MPDS, PAP, Mission Syariah, MDSA, MiAction), II. Financing/Keagenan & AAJI/Kompensasi (4 sub-sections), III. Starter Kit & New Agent Tools (Selling Tools, Recruiting Tools, Submit Tools).",
+    "Rewrite index.html completely with a masterpiece-quality redesign. Requirements: (1) Modern, beautiful CSS with gradients, subtle animations, and professional Manulife green color scheme. (2) At the very top of the page, provide navigation buttons that link/scroll to each card section. (3) Each product/section is displayed as a card with accordion effect - clicking the card header expands/collapses the content, making it clean and easy to read. (4) All links and content must come from the source converted HTML file - use the CORRECT URLs from that file, not from the existing broken index.html. (5) Responsive design for mobile and desktop. (6) Smooth accordion animations with CSS transitions. (7) At the very bottom: 'edited by @petrusjakub' where 'petrusjakub' links to https://instagram.com/petrusjakub, and 'copyright 2026'.",
+    "Commit the changes to main with an appropriate commit message and push to origin main."
+  ],
+  "acceptance_criteria": [
+    "index.html contains all content and links from the source converted HTML file",
+    "Navigation buttons at the top of the page link to each card/section",
+    "Each card uses accordion effect (click to expand/collapse content)",
+    "Design is masterpiece quality with modern CSS, animations, and professional look",
+    "Footer at the bottom shows 'edited by @petrusjakub' with petrusjakub linking to Instagram, and 'copyright 2026'",
+    "Page is responsive (works on mobile and desktop)",
+    "Changes are committed and pushed to main branch"
+  ],
+  "verification": [
+    "Check that index.html exists and contains accordion JavaScript functionality",
+    "Verify all product sections from source file are present in index.html",
+    "Verify footer contains @petrusjakub with correct Instagram link and copyright 2026",
+    "Verify navigation buttons exist at the top of the page",
+    "Run git log to confirm commit was made and pushed"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

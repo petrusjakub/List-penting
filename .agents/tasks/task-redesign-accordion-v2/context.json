@@ -1,0 +1,19 @@
+{
+  "project_type": "Static HTML page - single self-contained file with inline CSS and JS",
+  "language": "HTML/CSS/JavaScript",
+  "build_system": "None - static HTML file served directly",
+  "test_framework": "None - manual visual inspection",
+  "build_command": "N/A - static file",
+  "test_command": "N/A - static file, validate HTML structure with grep",
+  "verification_instructions": "Open index.html in browser, verify accordion functionality, navigation buttons, and footer",
+  "snapshot_or_generated_files": null,
+  "setup_instructions": "No setup needed - static HTML project",
+  "environment_constraints": "Single self-contained HTML file with all CSS and JS inline. No external dependencies except Google Fonts.",
+  "contribution_requirements": "Direct push to main branch. Auto commit.",
+  "key_patterns": "The existing index.html uses Manulife green (#00a758) as primary color, Inter font, card-based layout. Source content is in the converted HTML file on line 87 (49KB of structured content with links).",
+  "relevant_files": [
+    "index.html",
+    "Manulife File Penting - Directory Per 02 Juni 2026 (2)-converted.html"
+  ],
+  "directory_structure": "Root directory contains index.html (the target file to rewrite), a converted HTML source file with all content/links, and a PDF source file."
+}

@@ -1,0 +1,19 @@
+{
+  "project_type": "Static HTML page - Manulife File Penting directory",
+  "language": "HTML/CSS/JavaScript",
+  "build_system": "None - static HTML",
+  "test_framework": "None - manual visual testing",
+  "build_command": null,
+  "test_command": null,
+  "verification_instructions": "Open index.html in browser, verify accordion functionality, navigation buttons, correct links, and footer",
+  "snapshot_or_generated_files": null,
+  "setup_instructions": "No setup needed - static HTML project",
+  "environment_constraints": "Static HTML only, no build tools, no npm/node required",
+  "contribution_requirements": "Commit to main branch and push",
+  "key_patterns": "Single-page static HTML with inline CSS and JS",
+  "relevant_files": [
+    "index.html",
+    "Manulife File Penting - Directory Per 02 Juni 2026 (2)-converted.html"
+  ],
+  "directory_structure": "Root contains index.html (to rewrite), source converted HTML (content reference), and the original PDF"
+}
